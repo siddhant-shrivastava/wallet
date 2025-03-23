@@ -6,8 +6,8 @@ This repository contains the complete source code for the Wallet application.
 
 The project is organized into the following main directories:
 
-* **`backend/`**: Contains the server-side code and API built with Node.js and Express.
-* **`frontend/`**: Contains the user interface built with React + Vite.
+* **`backend/`**: Contains the server-side code and API built with Node.js and Express. https://wallet-backend-liart.vercel.app/
+* **`frontend/`**: Contains the user interface built with React + Vite. https://wallet-frontend-eosin.vercel.app/
 
 ## Getting Started
 
