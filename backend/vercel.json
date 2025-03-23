@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    { "src": "/setup", "dest": "/server.js" },
+    { "src": "/transact/(.*)", "dest": "/server.js" },
+    { "src": "/transactions", "dest": "/server.js" },
+    { "src": "/wallet/(.*)", "dest": "/server.js" }
+  ]
+}
