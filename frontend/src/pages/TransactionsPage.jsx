@@ -14,6 +14,7 @@ import {
     Box,
     Alert,
     CircularProgress,
+    Backdrop
 } from '@mui/material';
 import { fetchTransactions } from '../services/api';
 import { CSVLink } from 'react-csv';
@@ -87,7 +88,12 @@ function TransactionsPage() {
         <Box sx={{ p: 3 }}>
             <h1>Wallet Transactions</h1>
             {error && <Alert severity="error" sx={{ mb: 2 }}>{error}</Alert>}
-            {loading && <CircularProgress sx={{ display: 'block', margin: '20px auto' }} />}
+            <Backdrop
+                sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                open={loading}
+            >
+                <CircularProgress color="inherit" />
+            </Backdrop>
             <TableContainer component={Paper}>
                 <Table sx={{ minWidth: 650 }} aria-label="transaction table">
                     <TableHead>

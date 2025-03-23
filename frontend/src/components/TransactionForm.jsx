@@ -56,20 +56,6 @@ function TransactionForm({ walletId, onTransactionComplete }) {
                 rows={2}
                 inputProps={{ autoComplete: "off" }}
             />
-            {/* <Box sx={{
-                display: 'flex',
-                flexDirection: isLargeScreen ? 'row' : 'column',
-                gap: 2,
-                mt: 2,
-                width: '100%',
-            }}>
-                <Button type="submit" variant="contained" color="primary" sx={{ mt: 2 }} disabled={loading}>
-                    {loading ? 'Adding Transaction...' : 'Add Transaction'}
-                </Button>
-                <Button component={RouterLink} to="/transactions" variant="outlined" sx={{ mt: 2 }}>
-                    View Transactions
-                </Button>
-            </Box> */}
             <Grid container spacing={2} sx={{ mt: 2 }}>
                 <Grid item xs={12} lg={6}> 
                     <Button type="submit" variant="contained" color="primary" fullWidth disabled={loading}>
