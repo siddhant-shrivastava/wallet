@@ -3,6 +3,7 @@
 This is the backend API for the Wallet application. It provides the necessary endpoints for managing user wallets and transactions.
 
 [Deployed URL](https://wallet-backend-liart.vercel.app/)
+https://wallet-backend-liart.vercel.app/
 
 ## Technologies Used
 
