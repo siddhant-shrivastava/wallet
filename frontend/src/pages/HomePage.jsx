@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import WalletSetup from '../components/WalletSetup.jsx';
 import WalletDetails from '../components/WalletDetails.jsx';
 import TransactionForm from '../components/TransactionForm.jsx';
-import { Container, Button, Alert, CircularProgress } from '@mui/material';
+import { Container, Alert, CircularProgress, Backdrop } from '@mui/material';
 import { getWalletDetails } from '../services/api';
 
 function HomePage() {
@@ -51,7 +51,12 @@ function HomePage() {
         <Container maxWidth="sm" sx={{ paddingTop: '20px' }}>
 
             {error && <Alert severity="error" sx={{ mb: 2 }}>{error}</Alert>}
-            {loading && <CircularProgress sx={{ display: 'block', margin: '20px auto' }} />}
+            <Backdrop
+                sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                open={loading}
+            >
+                <CircularProgress color="inherit" />
+            </Backdrop>
             {!walletId ? (
                 <>
                     <h1>Create a wallet</h1>
