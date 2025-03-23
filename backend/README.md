@@ -1,22 +1,24 @@
-**# Wallet Backend
+### Wallet Backend
 
 This is the backend API for the Wallet application. It provides the necessary endpoints for managing user wallets and transactions.
 
+[Deployed URL](https://wallet-backend-liart.vercel.app/)
+
 ## Technologies Used
 
-* **Node.js:** JavaScript runtime environment.
-* **Express:** Minimalist web application framework for Node.js.
-* **MongoDB:** NoSQL database for storing application data.
-* **Mongoose:** MongoDB object modeling tool designed to work in an asynchronous environment.
-* **Other Libraries:** express-validator, body-parser, cors, dotenv.
+**Node.js:** JavaScript runtime environment.
+**Express:** Minimalist web application framework for Node.js.
+**MongoDB:** NoSQL database for storing application data.
+**Mongoose:** MongoDB object modeling tool designed to work in an asynchronous environment.
+**Other Libraries:** express-validator, body-parser, cors, dotenv.
 
 ## Prerequisites
 
 Before you can run the backend, you need to have the following installed on your system:
 
-* **Node.js:** Make sure you have Node.js (latest LTS version recommended) installed. You can download it from [https://nodejs.org/](https://nodejs.org/).
-* **npm**  Node Package Manager (npm) comes bundled with Node.js. You can check if you have it by running `npm -v`..
-* **MongoDB:** Ensure you have MongoDB installed and running. You can follow the installation instructions on the official MongoDB website: [https://www.mongodb.com/docs/manual/installation/](https://www.mongodb.com/docs/manual/installation/).
+**Node.js:** Make sure you have Node.js (latest LTS version recommended) installed. You can download it from [https://nodejs.org/](https://nodejs.org/).
+**npm**  Node Package Manager (npm) comes bundled with Node.js. You can check if you have it by running `npm -v`..
+**MongoDB:** Ensure you have MongoDB installed and running. You can follow the installation instructions on the official MongoDB website: [https://www.mongodb.com/docs/manual/installation/](https://www.mongodb.com/docs/manual/installation/).
 
 ## Installation
 
