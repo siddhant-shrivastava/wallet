@@ -2,6 +2,9 @@
 
 This is the frontend application for the Wallet system, built using React + vite. It provides a user interface for managing wallets and viewing transaction history.
 
+[Deployed URL](https://wallet-frontend-eosin.vercel.app/)
+https://wallet-frontend-eosin.vercel.app/
+
 ## Technologies Used
 
 * **React:** JavaScript library for building user interfaces.
