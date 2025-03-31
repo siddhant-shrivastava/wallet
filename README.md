@@ -1,6 +1,7 @@
 # Wallet Application
 
 This repository contains the complete source code for the Wallet application.
+This application is created just to practice of **frontend** - react 19 + material UI + vite, **backend** -  expressJS, mongoDB with handling of race condition with session and $inc operator.
 
 ## Structure
 
